@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com');
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            
+  padding: 12px 40px;
+  background: rgba(150, 81, 95, 0.95); 
+  z-index: 1000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header-left img {
+  height: 40px;      
+  object-fit: contain;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;         
+}
+
+.header-right a {
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  padding: 8px 4px;
+  color: white;
+  transition: opacity 0.2s ease;
+}
+
+.header-right a:hover {
+  opacity: 0.7;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;      
+  background-size: cover;           
+  background-position: center;      
+  background-repeat: no-repeat;     
+}
+
+.bold{
+  font-weight: bold;
+  letter-spacing: normal;
+}
+
+.center-text {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  top: 125px;
+  color: white;
+  z-index: 1;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  letter-spacing: 0.4em;
+  background: transparent;
+  font-size: 50px;
+}
+
+.center-video{
+  position: absolute;
+  object-fit: fill;
+  z-index: 0;
+  autoplay: true;
+  loop: true;
+}
+
+.wsm-info{
+  background-color: #591e29;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  color: white;
+}
+
+.Tab{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  align-items: center;
+  color: white;
+  left: 50%;
+  height: 100%;
+  letter-spacing: 0.4em;
+  background: transparent; 
+  font-size: 50px;
+}
+
+.paragraph1{
+  color:white;
+  font-size: 24px;
+  font-weight: bold;
+  
+}
+
+.list1{
+  color: white;
+  font-size: 24px;
+
+}
+
+.wsm-button{
+  background: transparent;
+  position: center;
+  background-color: #591e29;
+  color: white;
+  border: 2px solid white;
+  padding: 18px 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.wsm-button:hover{
+  background-color: white;
+  color: #591e29;
+}
+
+.locations{
+  display: flex;
+  flex-wrap: nowrap;     
+  justify-content: space-between;
+  gap: 20px;   
+  padding: 40px; 
+  overflow-x: auto;
+}
+
+.west-la{
+  color: white;
+  font-size: 24px;
+  background-color: black;
+  padding: 20px;
+  margin-bottom: 20px;
+  flex: 0 0 18%;       
+  border-radius: 8px;
+}
+
+.playa-del-rey{
+  color: white;
+  font-size: 24px;
+  background-color: gray;
+  padding: 20px;
+  margin-bottom: 20px;
+  flex: 0 0 18%;       
+  border-radius: 8px;
+}
+
+.redondo-beach{
+  color: white;
+  font-size: 24px;
+  background-color: lightgray;
+  padding: 20px;
+  margin-bottom: 20px;
+  flex: 0 0 18%;       
+  border-radius: 8px;
+}
+
+.marina-del-rey{
+  color: white;
+  font-size: 24px;
+  background-color: #9f6a75;
+  padding: 20px;
+  margin-bottom: 20px;
+  flex: 0 0 18%;       
+  border-radius: 8px;
+}
+
+
+.san-francisco{
+  color: white;
+  font-size: 24px;
+  background-color: #7F2B3C;
+  padding: 20px;
+  margin-bottom: 20px;
+  flex: 0 0 18%;       
+  border-radius: 8px;
+}
+
+.resources{
+  background-color: #2e2d2d;
+}
+
+.resources-inner{
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.resources-left{
+  max-width: 500px;
+}
+
+.in-touch{
+  color: white;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold; 
+}
+
+.visit-info{
+  color: white;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal; 
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.socials{
+  display: flex;
+  gap: 14px;
+  margin-bottom:20px;
+}
+
+.socials img{
+  width: 34px;
+  height: auto;
+  cursor: pointer;
+}
+
+.phone-number{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.quick-links {
+  display: flex;
+  flex-direction: column;
+  min-width: 180px;
+}
+
+.quick-links h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  margin-bottom: 16px;
+  color: white;
+}
+
+.quick-links a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+/* .footer{
+
+} */
+
