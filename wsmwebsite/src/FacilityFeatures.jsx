@@ -7,14 +7,14 @@ function FacilityFeatures() {
       <header className="header">
         <div className="header-left">
           <Link to="/">
-            <img src="WSM.jpeg" alt="WSM Logo" />
+            <img src="wsmlogo2.avif" alt="WSM Logo" />
           </Link>
         </div>
 
         <nav className="header-right">
           <Link to="/about">About</Link>
           <Link to="/facility-features">Facility Features</Link>
-          <a href="#receiving-services">Receiving Service</a>
+          <Link to="/receiving-service">Receiving Service</Link>
           <a href="#storage-faq">Storage + FAQ</a>
           <a href="#contact">Contact</a>
           <a href="#member-portal">Member Portal</a>

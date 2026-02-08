@@ -10,14 +10,14 @@ const About = () => {
       <div className="header">
         <div className="header-left">
           {/* <h1>Wine Storage Management</h1> */}
-          <a href="http://localhost:5173/"><img src="WSM.jpeg" alt="WSM Logo"></img></a>
+          <a href="http://localhost:5173/"><img src="wsmlogo2.avif" alt="WSM Logo"></img></a>
         </div>
       
         <div className="header-right">
           {/* Follow Pattern for other pages */}
           <Link to="/about">About</Link> 
           <Link to="/facility-features">Facility Features</Link> 
-          <a href='#recieving services'>Receiving Service</a>
+          <Link to="/receiving-service">Receiving Service</Link>
           <a href='storage + faq'>Storage + FAQ</a>
           <a href='#contact'>Contact</a>
           <a href='member portal'>Member Portal</a>
