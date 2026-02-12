@@ -3,6 +3,7 @@ import Home from './Home'
 import About from './About'
 import ReceivingService from './ReceivingService'
 import FacilityFeatures from './FacilityFeatures'
+import StorageFAQ from './StorageFAQ'
 import './Home.css'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Route path='/about' element={<About />} />
       <Route path='/facility-features' element={<FacilityFeatures />} />
       <Route path='/receiving-service' element={<ReceivingService />} />
+      <Route path='/storage-faq' element={<StorageFAQ />} />
       </Routes>
     </BrowserRouter>
   );
