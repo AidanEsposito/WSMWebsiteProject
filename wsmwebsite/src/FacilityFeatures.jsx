@@ -15,8 +15,8 @@ function FacilityFeatures() {
           <Link to="/about">About</Link>
           <Link to="/facility-features">Facility Features</Link>
           <Link to="/receiving-service">Receiving Service</Link>
-          <a href="#storage-faq">Storage + FAQ</a>
-          <a href="#contact">Contact</a>
+          <Link to="/storage-faq">Storage + FAQ</Link>
+          <Link to="/contact">Contact</Link>
           <a href="#member-portal">Member Portal</a>
           <a href="#blog">Blog</a>
           <a href="#friends-of-wsm">Friends of WSM</a>

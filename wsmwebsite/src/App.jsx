@@ -4,6 +4,7 @@ import About from './About'
 import ReceivingService from './ReceivingService'
 import FacilityFeatures from './FacilityFeatures'
 import StorageFAQ from './StorageFAQ'
+import Contact from './Contact'
 import './Home.css'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Route path='/facility-features' element={<FacilityFeatures />} />
       <Route path='/receiving-service' element={<ReceivingService />} />
       <Route path='/storage-faq' element={<StorageFAQ />} />
+      <Route path='/contact' element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );

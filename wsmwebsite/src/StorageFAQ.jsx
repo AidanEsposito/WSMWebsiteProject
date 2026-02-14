@@ -17,7 +17,7 @@ function StorageFAQ() {
                     <Link to="/facility-features">Facility Features</Link> 
                     <Link to="/receiving-service">Receiving Service</Link>
                     <Link to="/storage-faq">Storage + FAQ</Link>
-                    <a href='#contact'>Contact</a>
+                    <Link to="/contact">Contact</Link>
                     <a href='member portal'>Member Portal</a>
                     <a href='#blog'>Blog</a>
                     <a href='#friends of wsm'>Friends of WSM</a>
