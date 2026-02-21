@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import './ReceivingService.css'
+import '../design/ReceivingService.css'
 
 function ReceivingService() {
   return (

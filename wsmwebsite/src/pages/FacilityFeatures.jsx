@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import './FacilityFeatures.css'
+import '../design/FacilityFeatures.css'
 
 function FacilityFeatures() {
   return (

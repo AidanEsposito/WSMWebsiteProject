@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './PaymentPortal.css';
+import '../design/PaymentPortal.css';
 
 function PaymentPortal() {
   return (

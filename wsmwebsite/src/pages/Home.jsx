@@ -1,5 +1,4 @@
-import './Home.css'
-import App from './App.jsx'
+import '../design/Home.css'
 import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
