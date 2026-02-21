@@ -6,6 +6,7 @@ import FacilityFeatures from './FacilityFeatures'
 import StorageFAQ from './StorageFAQ'
 import Contact from './Contact'
 import PaymentPortal from './PaymentPortal'
+import Blog from './Blog'
 import './Home.css'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Route path='/storage-faq' element={<StorageFAQ />} />
       <Route path='/contact' element={<Contact />} />
       <Route path='/payment-portal' element={<PaymentPortal />} />
+      <Route path='*' element={<Blog />} />
       </Routes>
     </BrowserRouter>
   );
