@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 60px;
+  background: #96515f;
+  z-index: 1000;
+}
+
+.header-left img {
+  height: 42px;
+}
+
+.header-right {
+  display: flex;
+  gap: 22px;
+}
+
+.header-right a {
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.payment-portal {
+  padding-top: 150px;
+  width: 100vw;
+  background-color: grey;
+  text-align: center;
+}
+
+.payment-portal-header h1 {
+  font-size: 43px;
+  font-weight: 700;
+  margin-bottom: 60px;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 4px rgba(255,255,255,0.8);
+}
+
+.payment-portal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.payment-portal-content > div {
+  width: 100%;
+  max-width: 1200px;
+  background: grey;
+  margin-bottom: 30px;
+  padding: 35px 20px;
+  border: 2px solid #000;
+  border-radius: 6px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+.payment-portal-content > div:hover {
+  transform: scale(0.97);
+  box-shadow: 0 5px 12px rgba(0,0,0,0.1);
+}
+
+.payment-portal-content h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+  text-transform: uppercase;
+  text-shadow: 0 2px 4px rgba(255,255,255,0.8);
+}
+
+.payment-portal-content p {
+  font-size: 14px;
+  margin-top: 8px;
+  color: black;
+}
+
+.Access-text {
+  background: darkgray;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  margin-top: 40px;
+  cursor: default;
+}
+
+.Access-text h2,
+.Access-text p {
+  color: black;
+  text-shadow: none;
+}
+
+.resources {
+  background-color: #2e2d2d;
+  width: 100%;
+  padding: 60px 20px;
+  box-sizing: border-box;
+}
+
+.resources-inner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  max-width: none;
+}
+
+.resources-left {
+  max-width: 500px;
+  flex: 1;
+  margin-right: 20px;
+}
+
+.in-touch {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.visit-info {
+  color: white;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.socials {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.socials img {
+  width: 34px;
+  height: auto;
+  cursor: pointer;
+}
+
+.phone-number {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.quick-links {
+  display: flex;
+  flex-direction: column;
+  min-width: 180px;
+}
+
+.quick-links h5 {
+  font-size: 18px;
+  margin-bottom: 16px;
+  color: white;
+}
+
+.quick-links a {
+  font-size: 15px;
+  margin-bottom: 8px;
+  color: white;
+  text-decoration: none;
+}

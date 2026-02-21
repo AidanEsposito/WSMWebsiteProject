@@ -20,7 +20,7 @@ const About = () => {
           <Link to="/receiving-service">Receiving Service</Link>
           <Link to="/storage-faq">Storage + FAQ</Link>
           <Link to="/contact">Contact</Link>
-          <a href='member portal'>Member Portal</a>
+          <Link to="/payment-portal">Member Portal</Link>
           <a href='#blog'>Blog</a>
           <a href='#friends of wsm'>Friends of WSM</a>
         </div>
