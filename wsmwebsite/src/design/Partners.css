@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 60px;
+  background: #96515f;
+  z-index: 1000;
+}
+
+.header-left img {
+  height: 42px;
+}
+
+.header-right {
+  display: flex;
+  gap: 22px;
+}
+
+.header-right a {
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.partners-header {
+    height: 600px;
+    width: 150vw;
+    margin-left: calc(-50vw + 50%);
+
+    background-image: url('/winerack.avif');
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;;
+}
+
+
+.partners-header-text {
+    position: relative;
+    padding: 60px 80px;
+    max-width: 900px;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 1;
+    margin-left: -850px;
+    opacity: 0.85;
+}
+
+.partners-header-text::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #6B2532;
+    opacity: 0.9;
+    border-radius: 8px;
+    z-index: -1;
+}
+
+.uncorked-content{
+    background-color: #40161E;
+    color: white;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 120px 10%;
+}
+
+.uncorked-left{
+    position: relative;
+    width: 650px
+}
+
+.uncorked-image-1{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.uncorked-image-2{
+    position: absolute;
+    bottom: -60px;
+    right: -60px;
+    width: 70%;
+    height: auto;
+}
+
+.uncorked-right{
+    max-width: 500px;;
+}
+
+.uncorked-right h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.uncorked-right h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.uncorked-right p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.barsha-content{
+    background-color: #6B2532;
+    color: white;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 120px 10%;
+}
+
+.barsha-left{
+    position: relative;
+    width: 800px
+}
+
+.barsha-image-1{
+    width: 90%;
+    height: auto;
+    display: block;
+}
+
+.barsha-image-2{
+    position: absolute;
+    bottom: -50px;
+    right: 350px;
+    width: 70%;
+    height: auto;
+}
+
+.barsha-image-3{
+    position: absolute;
+    left: 500px;
+    width: 20%;
+    height: auto;
+}
+
+.barsha-right{
+    max-width: 500px;
+}
+
+.barsha-right h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.barsha-right h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.barsha-right p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.mbw-content{
+    background-color: #40161E;
+    color: white;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 120px 10%;
+}
+
+.mbw-left{
+    position: relative;
+    width: 800px
+}
+
+.mbw-image-1{
+    width: 90%;
+    height: auto;
+    display: block;
+}
+
+.mbw-right{
+    max-width: 500px;
+}
+
+.mbw-right h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.mbw-right h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.mbw-right p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+.maps-marker {
+    width: 28px;
+    margin-top: 15px;
+    margin-left: 250px;
+}
+
