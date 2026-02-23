@@ -7,6 +7,7 @@ import StorageFAQ from './pages/StorageFAQ'
 import Contact from './pages/Contact'
 import PaymentPortal from './pages/PaymentPortal'
 import Blog from './pages/Blog'
+import Partners from './pages/Partners'
 import './design/Home.css'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/payment-portal' element={<PaymentPortal />} />
         <Route path='*' element={<Blog />} />
+        <Route path='/partners' element={<Partners />} />
       </Routes>
     </BrowserRouter>
   )

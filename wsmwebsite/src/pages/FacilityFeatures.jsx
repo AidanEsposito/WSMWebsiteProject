@@ -19,7 +19,7 @@ function FacilityFeatures() {
           <Link to="/contact">Contact</Link>
           <Link to="/payment-portal">Member Portal</Link>
           <Link to="/blog">Blog</Link>
-          <a href="#friends-of-wsm">Friends of WSM</a>
+          <Link to="/partners">Friends of WSM</Link>
         </nav>
       </header>
 
