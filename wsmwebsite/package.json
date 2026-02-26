@@ -11,9 +11,10 @@
   },
   "dependencies": {
     "install": "^0.13.0",
-    "npm": "^11.7.0",
+    "npm": "^11.11.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-google-recaptcha": "^3.1.0",
     "react-router-dom": "^6.30.3"
   },
   "devDependencies": {

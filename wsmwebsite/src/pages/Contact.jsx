@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
+import ReCaptchaField from "../pages/RecaptchaField";
 import '../design/Contact.css';
 
+
 function Contact() {
+
+  const recaptchaRef = useRef(null);
+
   return (
     <div className="contact">
       <header className="header">
@@ -91,8 +96,14 @@ function Contact() {
             <textarea id="any-other-comments" name="any-other-comments" rows="4"></textarea>
           </div>
 
+          <div className="captcha">
+            <label>Please verify that you are not a robot:</label>
+            <ReCaptchaField ref={recaptchaRef} />
+          </div>
+
           <button type="submit" className="submit-button">Submit</button>
-        </form>
+        </form> 
+
       </div>
 
       <div className="locations">
