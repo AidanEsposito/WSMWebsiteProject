@@ -1,17 +1,29 @@
 import '../design/Home.css'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 
-
-
-// Add react-router-dom components to go to other pages
-
-
-{/* Maybe make a header component to reuse on other pages? */}
-
 function Home() { 
   const [count, setCount] = useState(0)
+  const [showPopup, setShowPopup] = useState(false)
+
+   /* Handles showing info popup */
+
+  useEffect(() => {
+    const hasSeenPopup = localStorage.getItem("wsmPopupSeen")
+    if (!hasSeenPopup) {
+      setShowPopup(true)
+      localStorage.setItem("wsmPopupSeen", "true")
+    }
+  }, [])
+
+  /* Handles closing info popup */
+
+  const closePopup = () => {
+    setShowPopup(false)
+    localStorage.setItem("wsmPopupSeen", "true")
+  }
+
   return (
     <>
       
@@ -135,6 +147,17 @@ function Home() {
     <div className="footer">
       <p>Copyright © 2026 Wine Storage Management- All rights reserved.</p>
     </div>
+
+    { showPopup && (
+      <div className="popup">
+        <div className="popup-content">
+          <button className="close-button" onClick={closePopup}>X</button>
+          <img src="truckclipart.jpg" alt="Moving Truck" className="popup-image" />
+          <h2>FREE WINE RELOCATION SERVICES</h2>
+          <p>OFFER VALID WHEN MOVING INTO OUR REDONDO BEACH, PLAYA DEL REY  OR MARINA DEL REY LOCATIONS -  CONTACT US FOR MORE INFORMATION </p>
+        </div>
+      </div>
+    )}
 
     </>
   )
