@@ -64,15 +64,26 @@ function Home() {
 
     <div className="wsm-info">
       <h3 className="Tab">Premium Wine Storage</h3>
-      <p className="paragraph1">Storage Management (WSM) provides state-of-the-art wine storage in Los Angeles and San Francisco, with secure and accessible wine lockers and walk-in wine rooms. The facilities maintain a consistent 55° and allow you to have access to your wine locker or walk-in room all day, every day including holidays.</p>
-      <ul className="list1">
-        <li>24/ 7/ 365 Access </li>
-        <li>Easy to use lockers and wine rooms</li>
-        <li>Cellars maintained at an optimal 55° and 70% humidity</li>
-        <li>Exclusive concierge services and recommendations</li>
-      </ul>
+      <div className="wsm-left">
+        <p className="paragraph1">
+          Storage Management (WSM) provides state‑of‑the‑art wine storage in Los Angeles and San Francisco, with secure and
+          accessible wine lockers and walk‑in wine rooms. The facilities maintain a consistent 55° and allow you to have
+          access to your wine locker or walk‑in room all day, every day including holidays.
+        </p>
+      </div>
+
+      <div className="wsm-right">
+        <ul className="list1">
+          <li>24 / 7 / 365 Access</li>
+          <li>Easy to use lockers and wine rooms</li>
+          <li>Cellars maintained at an optimal 55° and 70% humidity</li>
+          <li>Exclusive concierge services and recommendations</li>
+        </ul>
+
+        <button className="wsm-button">BECOME A MEMBER</button>
+      </div>
     </div>
-    <button className="wsm-button">BECOME A MEMBER</button>
+
 
     <div className="locations">
         <div className="west-la">
@@ -134,18 +145,19 @@ function Home() {
         </div>
         <div className="quick-links">
           <h5>Quick Links</h5>
-          <a>Home</a>
-          <a>About</a>
-          <a>Facility Features</a>
-          <a>Storage</a>
-          <a>Blog</a>
-          <a>Contact</a>
+          <a href="http://localhost:5173/">Home</a>
+          <Link to="/about">About</Link> 
+          <Link to="/facility-features">Facility Features</Link> 
+          <Link to="/storage-faq">Storage</Link>
+          <Link to="/blog">Blog</Link>
+          <Link to="/contact">Contact</Link>
         </div>
       </div>
-    </div>
 
-    <div className="footer">
-      <p>Copyright © 2026 Wine Storage Management- All rights reserved.</p>
+      <div className="footer">
+        <p>Copyright © 2026 Wine Storage Management- All rights reserved.</p>
+      </div>
+
     </div>
 
     { showPopup && (
