@@ -50,35 +50,47 @@ function FacilityFeatures() {
       </section>
 
       <section className="features-list">
-        <div className="feature-card">
+
+        <div className="feature-row">
           <img src="facility-climate.avif" alt="Climate Controlled" />
-          <h3>Climate Controlled</h3>
-          <p>
-            State-of-the-art refrigeration systems with built-in redundancies
-            keep your wine stored at the ideal temperature. WSM continuously
-            monitors all facilities for temperature changes and water intrusion.
-          </p>
+
+          <div className="feature-text">
+            <h3><strong>Climate</strong> Controlled</h3>
+            <p>
+              State-of-the-art refrigeration systems with built-in redundancies
+              keep your wine stored at the ideal temperature. WSM continuously
+              monitors all facilities for temperature changes and water intrusion.
+            </p>
+          </div>
         </div>
 
-        <div className="feature-card">
+        <div className="feature-row">
           <img src="facility-security.avif" alt="Secure Access" />
-          <h3>24/7 Secure Access</h3>
-          <p>
-            Members enjoy 24/7/365 access with advanced security controls,
-            monitoring, and high-security keys for lockers and walk-in rooms.
-          </p>
+
+          <div className="feature-text">
+            <h3><strong>24/7 Secure</strong> Access</h3>
+            <p>
+              Members enjoy 24/7/365 access with advanced security controls,
+              monitoring, and high-security keys for lockers and walk-in rooms.
+            </p>
+          </div>
         </div>
 
-        <div className="feature-card">
+        <div className="feature-row">
           <img src="receiving.avif" alt="Receiving Options" />
-          <h3>Receiving Options</h3>
-          <p>
-            For Los Angeles members, shipments can be received at one of our LA
-            facilities and placed directly into your wine locker or storage room
-            for an added fee.
-          </p>
-          <button className="feature-button">Learn More</button>
+
+          <div className="feature-text">
+            <h3><strong>Receiving</strong> Options</h3>
+            <p>
+              For Los Angeles members, shipments can be received at one of our LA
+              facilities and placed directly into your wine locker or storage room
+              for an added fee.
+            </p>
+
+            <button className="feature-button">Learn More</button>
+          </div>
         </div>
+
       </section>
 
       <section className="resources">
@@ -113,9 +125,9 @@ function FacilityFeatures() {
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/facility-features">Facility Features</Link>
-            <a href="#storage">Storage</a>
-            <a href="#blog">Blog</a>
-            <a href="#contact">Contact</a>
+            <Link to="/storage-faq">Storage + FAQ</Link>
+            <Link to="/blog">Blog</Link>
+            <Link to="/contact">Contact</Link>
           </div>
         </div>
       </section>

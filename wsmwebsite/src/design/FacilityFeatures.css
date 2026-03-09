@@ -65,61 +65,73 @@
 
 .promotion-text{
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   color: white;
   font-weight: bold;
   text-align: center;
+  padding-top: 30px; 
+  padding-bottom: 30px;
   background-color: #2e2d2d;
+  margin-top: -25px;
 }
 
 .features-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 50px;
   max-width: 1200px;
-  margin: 80px auto;
-  text-align: center;
+  margin: 0px auto;
+  padding: 0;
 }
 
-.feature-card img {
-  width: 300px;
-  margin-bottom: 20px;
+/* Each feature row */
+.feature-row {
+  display: flex;
+  gap: 80px;
 }
 
-.feature-card h3 {
-  font-size: 18px;
+/* Reverse 2nd row - Note for AE */
+.feature-row:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+
+.feature-row img {  
+  width: 50%;
+  object-fit: cover;
+}
+
+
+.feature-text {
+  margin-top: 200px;
+  max-width: 520px;
+}
+
+
+.feature-text h3 {
+  font-size: 40px;
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-bottom: 15px;
+  color: #722F37;
 }
 
-.feature-card p {
-  font-size: 15px;
+
+.feature-text p {
+  font-size: 18px;
   line-height: 1.7;
   color: #444;
-  max-width: 320px;
-  margin: 0 auto 20px;
 }
 
 .feature-button {
-  background: transparent;
-  position: center;
-  background-color: #591e29;
+  margin-top: 20px;
+  padding: 10px 22px;
+  background-color: #B10000;
   color: white;
-  border: 2px solid white;
-  padding: 18px 40px;
-  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-  letter-spacing: 0.35em;
-  text-transform: uppercase;
   cursor: pointer;
-  transition: all 0.3s ease;
 }
 
 .feature-button:hover {
-  background: #000;
-  color: #fff;
+  background-color: #444;
 }
 
 .resources{
