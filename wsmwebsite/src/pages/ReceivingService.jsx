@@ -36,11 +36,11 @@ function ReceivingService() {
             ONLY AVAILABLE IN SOUTHERN CALIFORNIA — NOT AVAILABLE AT OUR SAN
             FRANCISCO LOCATION
             </strong>
-            <img
+            {/* <img
             src="storagehope.avif"
             alt="Receiving Service Storage"
             className="receiving-service-image"
-            />
+            /> */}
         </div>
 
         <div className="receiving-service-right-flex">
@@ -141,12 +141,12 @@ function ReceivingService() {
 
           <div className="quick-links">
             <h5>Quick Links</h5>
-            <a>Home</a>
-            <a>About</a>
-            <a>Facility Features</a>
-            <a>Storage</a>
-            <a>Blog</a>
-            <a>Contact</a>
+            <a href="http://localhost:5173/">Home</a>
+            <Link to="/about">About</Link> 
+            <Link to="/facility-features">Facility Features</Link> 
+            <Link to="/storage-faq">Storage</Link>
+            <Link to="/blog">Blog</Link>
+            <Link to="/contact">Contact</Link>
           </div>
         </div>
       </section>

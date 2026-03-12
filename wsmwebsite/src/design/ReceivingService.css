@@ -40,6 +40,8 @@
 }
 
 .receiving-service-content {
+  color: black;
+  background-color: #555;
   display: grid;
   grid-template-columns: 1fr 1.2fr;
   gap: 60px;
@@ -48,13 +50,24 @@
   padding: 140px 20px 80px;
 }
 
+.receiving-service-left-flex
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url("storagehope.avif")
+  }
+
 .receiving-service-left-flex h2 {
-  font-size: 32px;
+  color: white;
+  font-size: 50px;
   font-weight: 700;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin-bottom: 20px;
 }
 
 .receiving-service-left-flex p {
+  color: white;
   font-size: 16px;
   line-height: 1.7;
   margin-bottom: 20px;
