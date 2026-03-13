@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 
 function Home() { 
-  const [count, setCount] = useState(0)
   const [showPopup, setShowPopup] = useState(false)
 
    /* Handles showing info popup */

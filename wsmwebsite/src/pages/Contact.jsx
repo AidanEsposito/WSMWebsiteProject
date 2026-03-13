@@ -132,7 +132,7 @@ function Contact() {
         </div>
 
         <div className="marina-del-rey">
-          <h2>Marina Del Rey</h2>
+          <h2>Culver City / Marina Del Rey</h2>
           <h3>Los Angeles</h3>
           <p>Near The 90 FWY & Culver Blvd</p>
           <p>Tel. 310-869-1011</p>
@@ -173,13 +173,12 @@ function Contact() {
           </div>
 
           <div className="quick-links">
-            <h5>Quick Links</h5>
-            <a>Home</a>
-            <a>About</a>
-            <a>Facility Features</a>
-            <a>Storage</a>
-            <a>Blog</a>
-            <a>Contact</a>
+            <a href="http://localhost:5173/">Home</a>
+            <Link to="/about">About</Link> 
+            <Link to="/facility-features">Facility Features</Link> 
+            <Link to="/storage-faq">Storage</Link>
+            <Link to="/blog">Blog</Link>
+            <Link to="/contact">Contact</Link>
           </div>
         </div>
       </div>
